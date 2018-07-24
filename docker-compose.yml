@@ -19,3 +19,5 @@ grafana:
     - influxdb
   volumes:
     - ./data/grafana:/var/lib/grafana
+    - ./config/grafana/provisioning:/etc/grafana/provisioning
+    - ./config/grafana/dashboards:/var/lib/grafana/dashboards
