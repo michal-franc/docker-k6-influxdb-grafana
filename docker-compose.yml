@@ -18,6 +18,4 @@ grafana:
   links:
     - influxdb
   volumes:
-    # Data persistency
-    # sudo mkdir -p /srv/grafana/; chown 472:472 /srv/grafana
     - ./data/grafana:/var/lib/grafana
