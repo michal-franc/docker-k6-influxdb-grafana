@@ -35,3 +35,13 @@ time 1532468513
 old [description:"add configuration file to influxdb that changes environment for max body size so that requests from k6 sent are not too big and you are not loosing data" entry:"1531693703" modified:"1531693703" status:"pending" uuid:"272f83e0-5521-4bd1-858b-615e1f947c0e"]
 new [description:"add configuration file to influxdb that changes environment for max body size so that requests from k6 sent are not too big and you are not loosing data" end:"1532468513" entry:"1531693703" modified:"1532468513" status:"completed" uuid:"272f83e0-5521-4bd1-858b-615e1f947c0e"]
 ---
+time 1532472683
+old [description:"create simple script to create database and query influxdb just lik ein the run.sh on the source github" entry:"1531692532" modified:"1531692532" status:"pending" uuid:"d7daca76-1646-41dc-92e3-e7eb1a9edb6f"]
+new [description:"create simple script to create database and query influxdb just lik ein the run.sh on the source github" end:"1532472683" entry:"1531692532" modified:"1532472683" status:"completed" uuid:"d7daca76-1646-41dc-92e3-e7eb1a9edb6f"]
+---
+time 1532472699
+new [description:"in the readme mention how to start app and the test run" entry:"1532472699" modified:"1532472699" status:"pending" uuid:"c22f2cb2-ae5d-494e-b5f7-38766443238b"]
+---
+time 1532472710
+new [description:"simplify makefile so that run doesnt create everyting" entry:"1532472710" modified:"1532472710" status:"pending" uuid:"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"]
+---
