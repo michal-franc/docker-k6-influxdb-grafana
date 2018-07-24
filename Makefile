@@ -1,4 +1,4 @@
-.PHONY: run up down load-test
+.PHONY: run up down load-test create-influxdb
 
 run: up build-api load-test
 
@@ -7,6 +7,8 @@ build-api:
 
 up: prepare-data-folders
 	docker-compose up -d
+	sleep 2
+	curl -XPOST 'http://localhost:8086/query' --data-urlencode 'q=CREATE DATABASE load_tests'
 	sleep 2
 
 prepare-data-folders:
