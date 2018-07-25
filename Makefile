@@ -1,27 +1,28 @@
-.PHONY: run up down load-test create-influxdb
+.PHONY: run load-test
 
-run: up build-api load-test
+run: start minimal-api/minimal-api load-test
 
-build-api:
+minimal-api/minimal-api:
 	cd minimal-api && go build
 
-up: prepare-data-folders
+start: data
+	touch start 
 	docker-compose up -d
-	sleep 2
 	curl -XPOST 'http://localhost:8086/query' --data-urlencode 'q=CREATE DATABASE load_tests'
 	sleep 2
 
-prepare-data-folders:
+data:
 	mkdir -p data/grafana
 	sudo chown 472:472 data/grafana
 	mkdir -p data/influxdb
 
-clean: down
+clean: stop
 	sudo rm -rf data 
 
-down:
+stop:
 	docker-compose stop
 	docker-compose rm -f
+	rm start 
 
 load-test:
 	./minimal-api/minimal-api & echo $$! > api.PID
