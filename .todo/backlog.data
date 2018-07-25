@@ -15,3 +15,4 @@
 {"description":"run should only run if the db and everything already exists","entry":"20180725T223157Z","modified":"20180725T223157Z","status":"pending","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}
 {"description":"run should only run if the db and everything already exists","entry":"20180725T223157Z","modified":"20180725T223204Z","start":"20180725T223204Z","status":"pending","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}
 {"description":"run should only run if the db and everything already exists","end":"20180725T224719Z","entry":"20180725T223157Z","modified":"20180725T224719Z","status":"completed","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}
+{"description":"simplify makefile so that run doesnt create everyting","end":"20180725T224829Z","entry":"20180724T225150Z","modified":"20180725T224829Z","status":"completed","uuid":"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"}

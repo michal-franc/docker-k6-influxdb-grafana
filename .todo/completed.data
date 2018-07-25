@@ -1,3 +1,5 @@
+[description:"simplify makefile so that run doesnt create everyting" end:"1532558909" entry:"1532472710" modified:"1532558909" status:"completed" uuid:"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"]
+[description:"run should only run if the db and everything already exists" end:"1532558839" entry:"1532557917" modified:"1532558839" status:"completed" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
 [description:"create simple script to create database and query influxdb just lik ein the run.sh on the source github" end:"1532472683" entry:"1531692532" modified:"1532472683" status:"completed" uuid:"d7daca76-1646-41dc-92e3-e7eb1a9edb6f"]
 [description:"create grafa and influxdb compose expose influxdb for k6 and grafana to check" end:"1532468488" entry:"1531689274" modified:"1532468488" status:"completed" uuid:"21ba3d88-5c4a-4412-b488-2b2c68e7f1cb"]
 [description:"make file for create and clean - rememvber to remove influxdb folder with data" end:"1532468494" entry:"1531689311" modified:"1532468494" status:"completed" uuid:"424314eb-f405-448e-827e-86c01d680b87"]
