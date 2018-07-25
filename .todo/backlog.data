@@ -12,3 +12,6 @@
 {"description":"create simple script to create database and query influxdb just lik ein the run.sh on the source github","end":"20180724T225123Z","entry":"20180715T220852Z","modified":"20180724T225123Z","status":"completed","uuid":"d7daca76-1646-41dc-92e3-e7eb1a9edb6f"}
 {"description":"in the readme mention how to start app and the test run","entry":"20180724T225139Z","modified":"20180724T225139Z","status":"pending","uuid":"c22f2cb2-ae5d-494e-b5f7-38766443238b"}
 {"description":"simplify makefile so that run doesnt create everyting","entry":"20180724T225150Z","modified":"20180724T225150Z","status":"pending","uuid":"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"}
+{"description":"run should only run if the db and everything already exists","entry":"20180725T223157Z","modified":"20180725T223157Z","status":"pending","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}
+{"description":"run should only run if the db and everything already exists","entry":"20180725T223157Z","modified":"20180725T223204Z","start":"20180725T223204Z","status":"pending","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}
+{"description":"run should only run if the db and everything already exists","end":"20180725T224719Z","entry":"20180725T223157Z","modified":"20180725T224719Z","status":"completed","uuid":"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"}

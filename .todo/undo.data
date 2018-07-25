@@ -45,3 +45,14 @@ new [description:"in the readme mention how to start app and the test run" entry
 time 1532472710
 new [description:"simplify makefile so that run doesnt create everyting" entry:"1532472710" modified:"1532472710" status:"pending" uuid:"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"]
 ---
+time 1532557917
+new [description:"run should only run if the db and everything already exists" entry:"1532557917" modified:"1532557917" status:"pending" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
+---
+time 1532557924
+old [description:"run should only run if the db and everything already exists" entry:"1532557917" modified:"1532557917" status:"pending" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
+new [description:"run should only run if the db and everything already exists" entry:"1532557917" modified:"1532557924" start:"1532557924" status:"pending" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
+---
+time 1532558839
+old [description:"run should only run if the db and everything already exists" entry:"1532557917" modified:"1532557924" start:"1532557924" status:"pending" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
+new [description:"run should only run if the db and everything already exists" end:"1532558839" entry:"1532557917" modified:"1532558839" status:"completed" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
+---
