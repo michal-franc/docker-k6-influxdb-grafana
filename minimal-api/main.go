@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"time"
@@ -14,11 +13,9 @@ func GetHello(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	router := mux.NewRouter()
-	router.HandleFunc("/hello", GetHello).Methods("GET")
+	http.HandleFunc("/hello", GetHello)
 
 	srv := &http.Server{
-		Handler:      router,
 		Addr:         ":8000",
 		WriteTimeout: 5 * time.Second,
 		ReadTimeout:  5 * time.Second,
