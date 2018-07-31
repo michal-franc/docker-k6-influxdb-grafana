@@ -21,14 +21,22 @@ Grafana uses provisioning to spin up an instance with automatically configured d
 ### Makefile and how to run the sample
 
 To run the sample use `make run`. This automatically creates:
+- ephemeral start file to keep file target for Make indicating that `start step` in the future is not neccessary unless there was a change in the file, to simplify subsequent `k6` `runs` of load_test
+- folders to hold data for Grafana and InfluxDB
 - docker swarm with InfluxDB and Grafana instance
 - load_tests database on InfluxDB
-- folders to hold data for Grafana and InfluxDB
 - compiles minimal go app
 - starts minimal go app in paraller process keeping the PID in file for later kill
 - starts k6 to generate load test data and sends it to InfluxDB 
 
 After `make run` you need to open browser and go to `localhost:3000` log in as `admin:admin` and open the dashboard.
 
+
+### Cleanup
+
+To cleanup run `make clean` - this command:
+- removes data folder with `grafana` and `influxdb` data
+- stops docker swarm and removes containers
+- cleans up ephemeral `start` file
 
 Enjoy :)
