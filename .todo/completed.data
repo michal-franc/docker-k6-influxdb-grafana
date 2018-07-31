@@ -1,3 +1,5 @@
+[description:"in the readme mention how to start app and the test run" end:"1533063477" entry:"1532472699" modified:"1533063477" status:"completed" uuid:"c22f2cb2-ae5d-494e-b5f7-38766443238b"]
+[description:"create readme file with very simple and easy instructions to run everything maybe even a script to start docker compose run test and show website" end:"1533063472" entry:"1531689723" modified:"1533063472" status:"completed" uuid:"568c8033-7af6-4676-8348-407df54dd984"]
 [description:"simplify makefile so that run doesnt create everyting" end:"1532558909" entry:"1532472710" modified:"1532558909" status:"completed" uuid:"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"]
 [description:"run should only run if the db and everything already exists" end:"1532558839" entry:"1532557917" modified:"1532558839" status:"completed" uuid:"5b582cf0-d6c7-43b5-8046-e8144fe1f27f"]
 [description:"create simple script to create database and query influxdb just lik ein the run.sh on the source github" end:"1532472683" entry:"1531692532" modified:"1532472683" status:"completed" uuid:"d7daca76-1646-41dc-92e3-e7eb1a9edb6f"]
