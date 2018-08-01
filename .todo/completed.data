@@ -1,3 +1,4 @@
+[description:"figure out why server method on the influxdb data source doesnt work and you need to use browser somehow containers are not able to see each other" end:"1533072243" entry:"1531692794" modified:"1533072243" status:"completed" uuid:"10ef2f97-00cd-4192-8858-7b1b0050465f"]
 [description:"in the readme mention how to start app and the test run" end:"1533063477" entry:"1532472699" modified:"1533063477" status:"completed" uuid:"c22f2cb2-ae5d-494e-b5f7-38766443238b"]
 [description:"create readme file with very simple and easy instructions to run everything maybe even a script to start docker compose run test and show website" end:"1533063472" entry:"1531689723" modified:"1533063472" status:"completed" uuid:"568c8033-7af6-4676-8348-407df54dd984"]
 [description:"simplify makefile so that run doesnt create everyting" end:"1532558909" entry:"1532472710" modified:"1532558909" status:"completed" uuid:"52da71be-fb39-4b8b-b15c-3d6fd56f01ea"]
