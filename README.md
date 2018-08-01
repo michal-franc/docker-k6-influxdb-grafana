@@ -20,7 +20,7 @@ Grafana uses provisioning to spin up an instance with automatically configured d
 
 ### Makefile and how to run the sample
 
-To run the sample use `make run`. This automatically creates:
+To run the sample use `make demo`. This automatically creates:
 - ephemeral start file to keep file target for Make indicating that `start step` in the future is not neccessary unless there was a change in the file, to simplify subsequent `k6` `runs` of load_test
 - folders to hold data for Grafana and InfluxDB
 - docker swarm with InfluxDB and Grafana instance
@@ -31,6 +31,10 @@ To run the sample use `make run`. This automatically creates:
 
 After `make run` you need to open browser and go to `localhost:3000` log in as `admin:admin` and open the dashboard.
 
+
+### Running custom k6 file
+
+To run custom file with grafana available on port `:3000` use `make run file=<your_file_path>`
 
 ### Cleanup
 

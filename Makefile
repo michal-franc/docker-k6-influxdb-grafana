@@ -1,9 +1,6 @@
 .PHONY: run load-test
 
-run: start minimal-api/minimal-api load-test
-
-minimal-api/minimal-api:
-	cd minimal-api && go build
+run: start load-test
 
 start: data
 	touch start 
@@ -25,6 +22,12 @@ stop:
 	rm start 
 
 load-test:
+	k6 run --out influxdb=http://localhost:8086/load_tests $(file)
+
+minimal-api/minimal-api:
+	cd minimal-api && go build
+
+demo: start minimal-api/minimal-api
 	./minimal-api/minimal-api & echo $$! > api.PID
 	k6 run --out influxdb=http://localhost:8086/load_tests load-tests/load_test.js
 	kill `cat api.PID`
